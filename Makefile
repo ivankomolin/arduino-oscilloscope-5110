@@ -8,7 +8,6 @@ CONTAINER = docker run --rm \
 	-v ${PWD}:/app \
 	-v ${PWD}/lib:/root/Arduino/libraries \
 	-v ${HOME}/.arduino15:/root/.arduino15 \
-	--device=${DEVICE} \
 		ivankomolin/arduino
 
 #Install arduino:avr core
